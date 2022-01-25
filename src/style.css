@@ -32,6 +32,7 @@ input,
 
 .list-item {
   list-style-type: none;
+  padding: 2px 5px;
 }
 
 .list-item:nth-child(odd) {
@@ -50,8 +51,13 @@ input,
   margin-bottom: 10px;
 }
 
+input {
+  padding-left: 5px;
+}
+
 .submit,
 .refresh {
   padding: 3px 12px;
   background-color: white;
+  box-shadow: 2px 2px black;
 }
