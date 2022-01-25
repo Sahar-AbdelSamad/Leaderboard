@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+    <title>Leaderboard</title>
 </head>
 <body>
-    <h1>Hello webpack!</h1>
+    <h1>Leaderboard</h1>
+    <section class="flex">
+        <section class="recent-scores">
+            <h2>Recent scores</h2>
+            <button class="refresh" type="button">Refresh</button>
+            <ul class="list-scores">
+                <li class="list-item">Name: 100</li>
+                <li class="list-item">Name: 20</li>
+                <li class="list-item">Name: 50</li>
+                <li class="list-item">Name: 78</li>
+                <li class="list-item">Name: 125</li>
+                <li class="list-item">Name: 77</li>
+                <li class="list-item">Name: 42</li>
+            </ul>
+        </section>
+        <section class="add-score">
+            <h2>Add your score</h2>
+            <input type="text" name="Name" placeholder="Your name">
+            <input type="text" name="Score" placeholder="Your score">
+            <input class="submit" type="submit" value="Submit">
+        </section>
+    </section>
 </body>
 </html>
