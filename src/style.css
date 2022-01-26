@@ -1,3 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: bisque;
+  width: 70%;
+  margin: auto;
+}
+
+h1 {
+  margin: 50px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.recent-scores h2 {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.list-scores,
+input,
+.submit,
+.refresh {
+  border: 1px solid black;
+}
+
+.list-item {
+  list-style-type: none;
+  padding: 2px 5px;
+}
+
+.list-item:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5%;
+}
+
+.add-score h2 {
+  align-self: flex-start;
+  margin-bottom: 10px;
+}
+
+input {
+  padding-left: 5px;
+}
+
+.submit,
+.refresh {
+  padding: 3px 12px;
+  background-color: white;
+  box-shadow: 2px 2px black;
+}
+
+.message,
+.error-message {
+  color: red;
+  align-self: flex-start;
 }
