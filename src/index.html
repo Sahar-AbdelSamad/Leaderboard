@@ -7,26 +7,18 @@
 </head>
 <body>
     <h1>Leaderboard</h1>
-    <section class="flex">
+    <div class="flex">
         <section class="recent-scores">
             <h2>Recent scores</h2>
             <button class="refresh" type="button">Refresh</button>
-            <ul class="list-scores">
-                <li class="list-item">Name: 100</li>
-                <li class="list-item">Name: 20</li>
-                <li class="list-item">Name: 50</li>
-                <li class="list-item">Name: 78</li>
-                <li class="list-item">Name: 125</li>
-                <li class="list-item">Name: 77</li>
-                <li class="list-item">Name: 42</li>
-            </ul>
+            <ul class="list-scores"></ul>
         </section>
         <section class="add-score">
             <h2>Add your score</h2>
-            <input type="text" name="Name" placeholder="Your name">
-            <input type="text" name="Score" placeholder="Your score">
+            <input type="text" name="Name" class="name" placeholder="Your name" required>
+            <input type="text" name="Score" class="score" placeholder="Your score" required>
             <input class="submit" type="submit" value="Submit">
         </section>
-    </section>
+    </div>
 </body>
 </html>
