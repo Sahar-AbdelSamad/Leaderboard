@@ -5,6 +5,7 @@ class Leaderboard {
       this.inputName = document.querySelector('.name');
       this.inputScore = document.querySelector('.score');
       this.listScores = document.querySelector('.list-scores');
+      this.refresh = document.querySelector('.refresh');
     }
     
     addScore = () => {
@@ -32,7 +33,6 @@ class Leaderboard {
   
     toLocalStorage = (array) => {
       localStorage.setItem('list', JSON.stringify(array));
-      window.location.reload();
     }
   
     showRecentScores = () => {
@@ -67,7 +67,14 @@ class Leaderboard {
       const message = document.querySelector('.message');
       this.inputScore.parentNode.removeChild(message);
     }
+
+    refreshList = () => {
+      this.refresh.addEventListener('click', () => {
+        window.location.reload();
+      })
+    }
   }
   
   export const newScore = new Leaderboard();
   newScore.addScore();
+  newScore.refreshList();
