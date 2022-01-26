@@ -16,8 +16,8 @@ class Leaderboard {
               name: this.inputName.value,
               score: this.inputScore.value
             }
-            const scoreArr = this.scores.concat(scoreAdded);
-            newScore.toLocalStorage(scoreArr);
+            this.scores.push(scoreAdded)
+            newScore.toLocalStorage(this.scores);
             this.inputName.value = "";
             this.inputScore.value = "";
           } else {
@@ -33,6 +33,7 @@ class Leaderboard {
   
     toLocalStorage = (array) => {
       localStorage.setItem('list', JSON.stringify(array));
+      newScore.refreshList();
     }
   
     showRecentScores = () => {
