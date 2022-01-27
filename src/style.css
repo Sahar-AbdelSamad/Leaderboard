@@ -2,11 +2,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #031140;
 }
 
 body {
   width: 70%;
   margin: auto;
+  background: url("./Images/background.jpg") no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -18,52 +21,81 @@ h1 {
   justify-content: space-around;
 }
 
+.list-scores {
+  background-image: url("./Images/score2.jpg");
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 0.25rem;
+  padding-top: 20px;
+  overflow: scroll;
+}
+
 .recent-scores h2 {
   display: inline-block;
   margin-bottom: 20px;
 }
 
-.list-scores,
-input,
-.submit,
-.refresh {
-  border: 1px solid black;
-}
-
 .list-item {
   list-style-type: none;
-  padding: 2px 5px;
+  padding: 3px 5px;
+  height: 30px;
+  border-radius: 0.25rem;
+  border: 1px solid #020f43;
+  background-color: white;
+  margin: 20px 30px;
 }
 
-.list-item:nth-child(odd) {
-  background-color: #ddd;
-}
-
-.add-score {
+.form {
+  border-radius: 0.25rem;
+  background-image: url("./Images/score1.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 280px;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  gap: 5%;
+  align-items: center;
+  gap: 8%;
 }
 
 .add-score h2 {
-  align-self: flex-start;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-input {
+.name,
+.score {
   padding-left: 5px;
+  height: 30px;
+  border-radius: 0.25rem;
+  border-color: #020f43;
+  outline: none;
+  background-color: white;
 }
 
 .submit,
 .refresh {
   padding: 3px 12px;
-  background-color: white;
-  box-shadow: 2px 2px black;
+  background-image: linear-gradient(#126b81, #1b9bbb);
+  border-color: #126b81;
+  border-width: 3px;
+  color: #020f43;
+  font-size: larger;
+}
+
+.refresh {
+  margin-left: 60px;
 }
 
 .message,
-.error-message {
-  color: red;
-  align-self: flex-start;
+.error-message,
+.success-message {
+  color: #4d023c;
+  font-size: medium;
+  font-weight: 600;
+  align-self: center;
+  border: 1px solid #9e1781;
+  background-color: white;
+  padding: 3px 5px;
+  border-radius: 0.25rem;
 }
