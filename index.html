@@ -7,7 +7,7 @@
 <script defer src="main.js"></script></head>
 <body>
     <h1>Leaderboard</h1>
-    <section class="flex">
+    <div class="flex">
         <section class="recent-scores">
             <h2>Recent scores</h2>
             <button class="refresh" type="button">Refresh</button>
@@ -15,10 +15,12 @@
         </section>
         <section class="add-score">
             <h2>Add your score</h2>
-            <input type="text" name="Name" class="name" placeholder="Your name" required>
-            <input type="text" name="Score" class="score" placeholder="Your score" required>
-            <input class="submit" type="submit" value="Submit">
+            <div class="form">
+                <input type="text" name="Name" class="name" placeholder="Your name" required>
+                <input type="text" name="Score" class="score" placeholder="Your score" required>
+                <input class="submit" type="submit" value="Submit">
+            </div>
         </section>
-    </section>
+    </div>
 </body>
 </html>

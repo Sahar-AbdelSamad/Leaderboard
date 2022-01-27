@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n  box-sizing: border-box;\\n  margin: 0;\\n  padding: 0;\\n}\\n\\nbody {\\n  width: 70%;\\n  margin: auto;\\n}\\n\\nh1 {\\n  margin: 50px;\\n}\\n\\n.flex {\\n  display: flex;\\n  justify-content: space-around;\\n}\\n\\n.recent-scores h2 {\\n  display: inline-block;\\n  margin-bottom: 20px;\\n}\\n\\n.list-scores,\\ninput,\\n.submit,\\n.refresh {\\n  border: 1px solid black;\\n}\\n\\n.list-item {\\n  list-style-type: none;\\n  padding: 2px 5px;\\n}\\n\\n.list-item:nth-child(odd) {\\n  background-color: #dddddd;\\n}\\n\\n.add-score {\\n  display: flex;\\n  flex-direction: column;\\n  align-items: flex-end;\\n  gap: 5%;\\n}\\n\\n.add-score h2 {\\n  align-self: flex-start;\\n  margin-bottom: 10px;\\n}\\n\\ninput {\\n  padding-left: 5px;\\n}\\n\\n.submit,\\n.refresh {\\n  padding: 3px 12px;\\n  background-color: white;\\n  box-shadow: 2px 2px black;\\n}\\n\\n.message,\\n.error-message {\\n  color: red;\\n  align-self: flex-start;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-boilerplate/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./Images/background.jpg */ \"./src/Images/background.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./Images/score2.jpg */ \"./src/Images/score2.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./Images/score1.jpg */ \"./src/Images/score1.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n  box-sizing: border-box;\\n  margin: 0;\\n  padding: 0;\\n  color: #031140;\\n}\\n\\nbody {\\n  width: 70%;\\n  margin: auto;\\n  background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") no-repeat;\\n  background-size: cover;\\n}\\n\\nh1 {\\n  text-align: center;\\n  margin: 20px 0 40px;\\n}\\n\\n.flex {\\n  display: flex;\\n  justify-content: space-around;\\n}\\n\\n.list-scores {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\n  background-size: cover;\\n  height: 350px;\\n  width: 350px;\\n  border-radius: 0.25rem;\\n  padding-top: 20px;\\n  overflow: scroll;\\n}\\n\\n.recent-scores h2 {\\n  display: inline-block;\\n  margin-bottom: 20px;\\n}\\n\\n.list-item {\\n  list-style-type: none;\\n  padding: 3px 5px;\\n  height: 30px;\\n  border-radius: 0.25rem;\\n  border: 1px solid #020f43;\\n  background-color: white;\\n  margin: 20px 30px;\\n}\\n\\n.form {\\n  border-radius: 0.25rem;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\n  background-size: cover;\\n  height: 200px;\\n  width: 280px;\\n  padding-top: 20px;\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n  gap: 8%;\\n}\\n\\n.add-score h2 {\\n  margin-bottom: 20px;\\n}\\n\\n.name,\\n.score {\\n  padding-left: 5px;\\n  height: 30px;\\n  border-radius: 0.25rem;\\n  border-color: #020f43;\\n  outline: none;\\n  background-color: white;\\n}\\n\\n.submit,\\n.refresh {\\n  padding: 3px 12px;\\n  background-image: linear-gradient(#126b81, #1b9bbb);\\n  border-color: #126b81;\\n  border-width: 3px;\\n  color: #020f43;\\n  font-size: larger;\\n}\\n\\n.refresh {\\n  margin-left: 16%;\\n}\\n\\n.message,\\n.error-message,\\n.success-message {\\n  color: #4d023c;\\n  font-size: medium;\\n  font-weight: 600;\\n  align-self: center;\\n  border: 1px solid #9e1781;\\n  background-color: white;\\n  padding: 3px 5px;\\n  border-radius: 0.25rem;\\n}\\n\\n@media screen and (max-width: 930px) {\\n  .flex {\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: space-around;\\n    align-items: center;\\n    gap: 50px;\\n  }\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-boilerplate/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -27,6 +27,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n\n      content += cssWithMappingToString(item);\n\n      if (needLayer) {\n        content += \"}\";\n      }\n\n      if (item[2]) {\n        content += \"}\";\n      }\n\n      if (item[4]) {\n        content += \"}\";\n      }\n\n      return content;\n    }).join(\"\");\n  }; // import a list of modules into the list\n\n\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\n//# sourceURL=webpack://webpack-boilerplate/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n\n  if (!url) {\n    return url;\n  }\n\n  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://webpack-boilerplate/./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -116,7 +126,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"newScore\": () => (/* binding */ newScore)\n/* harmony export */ });\nclass Leaderboard {\n    constructor() {\n      this.scores = JSON.parse(localStorage.getItem('list') || '[]');\n      this.submit = document.querySelector('.submit');\n      this.inputName = document.querySelector('.name');\n      this.inputScore = document.querySelector('.score');\n      this.listScores = document.querySelector('.list-scores');\n    }\n    \n    addScore = () => {\n      this.submit.addEventListener('click', () => {\n        if(this.inputName.value && this.inputScore.value) {\n          if(/^\\d+$/.test(this.inputScore.value)) {\n              const scoreAdded = {\n              name: this.inputName.value,\n              score: this.inputScore.value\n            }\n            const scoreArr = this.scores.concat(scoreAdded);\n            newScore.toLocalStorage(scoreArr);\n            this.inputName.value = \"\";\n            this.inputScore.value = \"\";\n          } else {\n            newScore.showErrorMessage();\n            setTimeout (newScore.removeErrorMessage,2000);\n          }\n        } else {\n          newScore.showValidationMessage();\n          setTimeout (newScore.removeValidationMessage,2000);\n        }\n      }) \n    }\n  \n    toLocalStorage = (array) => {\n      localStorage.setItem('list', JSON.stringify(array));\n      window.location.reload();\n    }\n  \n    showRecentScores = () => {\n        this.scores.forEach(element => {\n        const li = document.createElement('li');\n        li.className = ('list-item');\n        li.innerText = `${element.name}: ${element.score}`;\n        this.listScores.appendChild(li);\n      });\n    }\n  \n    showErrorMessage = () => {\n      const errorMessage = document.createElement('p');\n      errorMessage.textContent = (\"Please enter a valid score\");\n      errorMessage.className = ('error-message');\n      this.inputScore.parentNode.appendChild(errorMessage)\n    }\n  \n    removeErrorMessage = () => {\n      const errorMessage = document.querySelector('.error-message');\n      this.inputScore.parentNode.removeChild(errorMessage);\n    }\n  \n    showValidationMessage = () => {\n      const message = document.createElement('p');\n      message.textContent = (\"Please fill all the boxes\");\n      message.className = ('message');\n      this.inputScore.parentNode.appendChild(message)\n    }\n  \n    removeValidationMessage = () => {\n      const message = document.querySelector('.message');\n      this.inputScore.parentNode.removeChild(message);\n    }\n  }\n  \n  const newScore = new Leaderboard();\n  newScore.addScore();\n\n//# sourceURL=webpack://webpack-boilerplate/./src/addScore.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Leaderboard\": () => (/* binding */ Leaderboard),\n/* harmony export */   \"newScore\": () => (/* binding */ newScore)\n/* harmony export */ });\n/* harmony import */ var _useAPI_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./useAPI.js */ \"./src/useAPI.js\");\n\n\nclass Leaderboard {\n  constructor() {\n    this.submit = document.querySelector('.submit');\n    this.inputName = document.querySelector('.name');\n    this.inputScore = document.querySelector('.score');\n    this.refresh = document.querySelector('.refresh');\n  }\n\n  addScore = () => {\n    this.submit.addEventListener('click', () => {\n      if (this.inputName.value && this.inputScore.value) {\n        if (/^\\d+$/.test(this.inputScore.value)) {\n          _useAPI_js__WEBPACK_IMPORTED_MODULE_0__.data.postScoresToAPI(this.inputName.value, this.inputScore.value);\n          this.inputName.value = '';\n          this.inputScore.value = '';\n          this.showSuccessMessage();\n          setTimeout(this.removeSuccessMessage, 2000);\n        } else {\n          this.showErrorMessage();\n          setTimeout(this.removeErrorMessage, 2000);\n        }\n      } else {\n        this.showValidationMessage();\n        setTimeout(this.removeValidationMessage, 2000);\n      }\n    });\n  }\n\n  showSuccessMessage = () => {\n    const successMessage = document.createElement('p');\n    successMessage.textContent = ('Score created successfully');\n    successMessage.className = ('success-message');\n    this.inputScore.parentNode.appendChild(successMessage);\n  }\n\n  removeSuccessMessage = () => {\n    const successMessage = document.querySelector('.success-message');\n    this.inputScore.parentNode.removeChild(successMessage);\n  }\n\n  showErrorMessage = () => {\n    const errorMessage = document.createElement('p');\n    errorMessage.textContent = ('Please enter a valid score');\n    errorMessage.className = ('error-message');\n    this.inputScore.parentNode.appendChild(errorMessage);\n  }\n\n  removeErrorMessage = () => {\n    const errorMessage = document.querySelector('.error-message');\n    this.inputScore.parentNode.removeChild(errorMessage);\n  }\n\n  showValidationMessage = () => {\n    const message = document.createElement('p');\n    message.textContent = ('Please fill all the boxes');\n    message.className = ('message');\n    this.inputScore.parentNode.appendChild(message);\n  }\n\n  removeValidationMessage = () => {\n    const message = document.querySelector('.message');\n    this.inputScore.parentNode.removeChild(message);\n  }\n\n  refreshList = () => {\n    this.refresh.addEventListener('click', () => {\n      window.location.reload();\n    });\n  }\n}\n\nconst newScore = new Leaderboard();\nnewScore.refreshList();\n\n//# sourceURL=webpack://webpack-boilerplate/./src/addScore.js?");
 
 /***/ }),
 
@@ -126,7 +136,47 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _addScore_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./addScore.js */ \"./src/addScore.js\");\n\n\n\nwindow.onload = () => {\n  _addScore_js__WEBPACK_IMPORTED_MODULE_1__.newScore.showRecentScores();\n}\n\n\n//# sourceURL=webpack://webpack-boilerplate/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _addScore_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./addScore.js */ \"./src/addScore.js\");\n/* harmony import */ var _useAPI_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./useAPI.js */ \"./src/useAPI.js\");\n\n\n\n\nwindow.onload = () => {\n  _useAPI_js__WEBPACK_IMPORTED_MODULE_2__.data.fetchData();\n  _addScore_js__WEBPACK_IMPORTED_MODULE_1__.newScore.addScore();\n};\n\n//# sourceURL=webpack://webpack-boilerplate/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/useAPI.js":
+/*!***********************!*\
+  !*** ./src/useAPI.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Data\": () => (/* binding */ Data),\n/* harmony export */   \"data\": () => (/* binding */ data)\n/* harmony export */ });\nclass Data {\n  constructor() {\n    this.URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/kPwgOmu44kog43JsIlkN/scores/';\n    this.listScores = document.querySelector('.list-scores');\n  }\n\n    fetchData = async () => {\n      const response = await fetch(this.URL);\n      const data = await response.json();\n      this.showRecentScores(data.result);\n    };\n\n    postScoresToAPI = async (newName, newScore) => {\n      await fetch(this.URL, {\n        method: 'POST',\n        body: JSON.stringify({\n          user: newName,\n          score: newScore,\n        }),\n        headers: {\n          'Content-type': 'application/json; charset=UTF-8',\n        },\n      });\n    };\n\n    showRecentScores = (array) => {\n      array.sort((a, b) => b.score - a.score);\n      array.forEach((element) => {\n        const li = document.createElement('li');\n        li.className = ('list-item');\n        li.innerText = `${element.user}: ${element.score}`;\n        this.listScores.appendChild(li);\n      });\n    }\n}\nconst data = new Data();\n\n\n//# sourceURL=webpack://webpack-boilerplate/./src/useAPI.js?");
+
+/***/ }),
+
+/***/ "./src/Images/background.jpg":
+/*!***********************************!*\
+  !*** ./src/Images/background.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"fdb8c52f936a4ef087b8.jpg\";\n\n//# sourceURL=webpack://webpack-boilerplate/./src/Images/background.jpg?");
+
+/***/ }),
+
+/***/ "./src/Images/score1.jpg":
+/*!*******************************!*\
+  !*** ./src/Images/score1.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"9a739c56e34d6acc4490.jpg\";\n\n//# sourceURL=webpack://webpack-boilerplate/./src/Images/score1.jpg?");
+
+/***/ }),
+
+/***/ "./src/Images/score2.jpg":
+/*!*******************************!*\
+  !*** ./src/Images/score2.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"faef4de8141f92f229b9.jpg\";\n\n//# sourceURL=webpack://webpack-boilerplate/./src/Images/score2.jpg?");
 
 /***/ })
 
@@ -156,6 +206,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -181,6 +234,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -195,6 +260,52 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /************************************************************************/
