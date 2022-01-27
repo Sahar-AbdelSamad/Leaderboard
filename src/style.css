@@ -15,11 +15,17 @@ body {
 h1 {
   text-align: center;
   margin: 20px 0 40px;
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 1.95em;
 }
 
 .flex {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 .list-scores {
@@ -45,6 +51,20 @@ h1 {
   border: 1px solid #020f43;
   background-color: white;
   margin: 20px 30px;
+}
+
+.user,
+.scores {
+  display: inline-block;
+}
+
+.user {
+  width: 60%;
+  margin-left: 20px;
+}
+
+.scores {
+  width: 30%;
 }
 
 .form {
@@ -84,8 +104,9 @@ h1 {
   font-size: larger;
 }
 
-.refresh {
-  margin-left: 16%;
+.submit:hover,
+.refresh:hover {
+  background-image: linear-gradient(#095f77, #115263);
 }
 
 .message,
@@ -108,5 +129,9 @@ h1 {
     justify-content: space-around;
     align-items: center;
     gap: 50px;
+  }
+
+  h1 {
+    font-size: 250%;
   }
 }

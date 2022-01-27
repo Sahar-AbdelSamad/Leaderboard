@@ -28,7 +28,14 @@ export class Data {
       array.forEach((element) => {
         const li = document.createElement('li');
         li.className = ('list-item');
-        li.innerText = `${element.user}: ${element.score}`;
+        const p1 = document.createElement('p');
+        p1.innerText = `${element.user}`;
+        p1.className = ('user');
+        li.appendChild(p1);
+        const p2 = document.createElement('p');
+        p2.innerText = `${element.score}`;
+        p2.className = ('scores');
+        li.appendChild(p2);
         this.listScores.appendChild(li);
       });
     }
