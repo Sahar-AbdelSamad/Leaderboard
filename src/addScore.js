@@ -15,6 +15,8 @@ export class Leaderboard {
           data.postScoresToAPI(this.inputName.value, this.inputScore.value);
           this.inputName.value = '';
           this.inputScore.value = '';
+          this.showSuccessMessage();
+          setTimeout(this.removeSuccessMessage, 2000);
         } else {
           this.showErrorMessage();
           setTimeout(this.removeErrorMessage, 2000);
@@ -24,6 +26,18 @@ export class Leaderboard {
         setTimeout(this.removeValidationMessage, 2000);
       }
     });
+  }
+
+  showSuccessMessage = () => {
+    const successMessage = document.createElement('p');
+    successMessage.textContent = ('Score created successfully');
+    successMessage.className = ('success-message');
+    this.inputScore.parentNode.appendChild(successMessage);
+  }
+
+  removeSuccessMessage = () => {
+    const successMessage = document.querySelector('.success-message');
+    this.inputScore.parentNode.removeChild(successMessage);
   }
 
   showErrorMessage = () => {
