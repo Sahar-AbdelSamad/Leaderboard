@@ -1,6 +1,6 @@
+import { data } from './useAPI.js'
 export class Leaderboard {
   constructor() {
-    this.scores = JSON.parse(localStorage.getItem('list') || '[]');
     this.submit = document.querySelector('.submit');
     this.inputName = document.querySelector('.name');
     this.inputScore = document.querySelector('.score');
@@ -8,42 +8,33 @@ export class Leaderboard {
     this.refresh = document.querySelector('.refresh');
   }
 
-    addScore = () => {
-      this.submit.addEventListener('click', () => {
-        if (this.inputName.value && this.inputScore.value) {
-          if (/^\d+$/.test(this.inputScore.value)) {
-            const scoreAdded = {
-              name: this.inputName.value,
-              score: this.inputScore.value,
-            };
-            this.scores.push(scoreAdded);
-            this.toLocalStorage(this.scores);
-            this.inputName.value = '';
-            this.inputScore.value = '';
-          } else {
-            this.showErrorMessage();
-            setTimeout(this.removeErrorMessage, 2000);
-          }
+  addScore = () => {
+    this.submit.addEventListener('click', () => {
+      if (this.inputName.value && this.inputScore.value) {
+        if (/^\d+$/.test(this.inputScore.value)) {
+          data.postScoresToAPI(this.inputName.value, this.inputScore.value);
+          this.inputName.value = '';
+          this.inputScore.value = '';
         } else {
-          this.showValidationMessage();
-          setTimeout(this.removeValidationMessage, 2000);
+          this.showErrorMessage();
+          setTimeout(this.removeErrorMessage, 2000);
         }
-      });
-    }
+      } else {
+        this.showValidationMessage();
+        setTimeout(this.removeValidationMessage, 2000);
+      }
+    });
+  }
 
-    toLocalStorage = (array) => {
-      localStorage.setItem('list', JSON.stringify(array));
-      this.refreshList();
-    }
-
-    showRecentScores = () => {
-      this.scores.forEach((element) => {
-        const li = document.createElement('li');
-        li.className = ('list-item');
-        li.innerText = `${element.name}: ${element.score}`;
-        this.listScores.appendChild(li);
-      });
-    }
+  showRecentScores = (array) => {
+    array.sort((a,b) => b.score - a.score);
+    array.forEach((element) => {
+      const li = document.createElement('li');
+      li.className = ('list-item');
+      li.innerText = `${element.user}: ${element.score}`;
+      this.listScores.appendChild(li);
+    });
+  }
 
     showErrorMessage = () => {
       const errorMessage = document.createElement('p');
@@ -77,5 +68,4 @@ export class Leaderboard {
 }
 
 export const newScore = new Leaderboard();
-newScore.addScore();
 newScore.refreshList();

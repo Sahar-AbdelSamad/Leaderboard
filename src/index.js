@@ -1,6 +1,8 @@
 import './style.css';
 import { newScore } from './addScore.js';
+import { data } from './useAPI.js';
 
 window.onload = () => {
-  newScore.showRecentScores();
+  data.fetchData();
+  newScore.addScore();
 };
