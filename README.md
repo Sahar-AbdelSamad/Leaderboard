@@ -8,6 +8,10 @@ Below you can see how this website should look and behave:
 
 ![screenshot](./Screenshot.gif)
 
+## Live Demo
+
+You can see [the app live here](https://sahar-abdelsamad.github.io/Leaderboard/)
+
 ## Setup
 
 ### Clone this repository
