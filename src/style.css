@@ -26,14 +26,18 @@ h2 {
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
+  border: 4px solid #031140;
+  border-radius: 0.6rem;
+  padding: 50px 0;
 }
 
 .list-scores {
   background-image: url("./Images/score2.jpg");
   background-size: cover;
+  box-shadow: -10px -10px 20px #f7d0e3, 10px 10px 20px #f7a6cd;
   height: 350px;
   width: 350px;
-  border-radius: 0.25rem;
+  border-radius: 0.6rem;
   padding-top: 20px;
   overflow: scroll;
 }
@@ -47,15 +51,17 @@ h2 {
   list-style-type: none;
   padding: 3px 5px;
   height: 30px;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
   border: 1px solid #020f43;
   background-color: white;
   margin: 20px 30px;
+  background-image: linear-gradient(#603bf1, #7f0e96);
 }
 
 .user,
 .scores {
   display: inline-block;
+  font-weight: bolder;
 }
 
 .user {
@@ -68,9 +74,10 @@ h2 {
 }
 
 .form {
-  border-radius: 0.25rem;
+  border-radius: 0.6rem;
   background-image: url("./Images/score1.jpg");
   background-size: cover;
+  box-shadow: -10px -10px 20px #8ba8d7, 10px 10px 20px #8ba8d7;
   height: 200px;
   width: 280px;
   padding-top: 20px;
@@ -102,6 +109,7 @@ h2 {
   border-width: 3px;
   color: #020f43;
   font-size: larger;
+  border-radius: 0.3rem;
 }
 
 .submit:hover,
@@ -126,12 +134,17 @@ h2 {
   .flex {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     gap: 50px;
   }
 
   h1 {
     font-size: 250%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .flex {
+    border: none;
   }
 }
